@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	//如果您点击提交，表单数据会被发送到名为 route('UserController.store') 的页面
+	<form method="POST" action="{{ route('UserController.store') }}">
+  <div>
+    <input type="text" name="email" />
+  </div>
+
+  <div>
+    <input type="text" name="password" />
+  </div>
+
+  <button type="submit"> Submit </button>
+</form>
+</body>
+</html>
